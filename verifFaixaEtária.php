@@ -9,20 +9,21 @@
     
 <div class="container">
 
-<h1>Verificação de Faixa Etária<h1>
+<h1>Verificação de Faixa Etária</h1>
 <?php
 
-$idade = 66;
+$idade = 14;
 
-if($idade >= 0 $idade <=12) {
+if($idade >= 0 && $idade <=12) {
     echo"A pessoa é uma criança";
-}else if($idade >= 13 $idade <=17) {
+}else if($idade >= 13 && $idade <=17) {
     echo"A pessoa é Adolescente";
-}else if($idade >= 18 $idade <=64) {
+}else if($idade >= 18 && $idade <=64) {
     echo"A pessoa é Adulto";
 }else if($idade >=65){
     echo"A pessoa é idoso(a)";
 }
 ?>
+</div>
 </body>
 </html>

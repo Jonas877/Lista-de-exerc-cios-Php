@@ -9,15 +9,16 @@
     
 <div class="container">
 
-<h1>Conversor de Temperatura<h1>
+<h1>Conversor de Temperatura</h1>
 <?php
 
-$temperaturaCelsius = 20;
+$temperaturaCelsius = 30;
 $temperaturaFahrenheit = 0;
 
 $temperaturaFahrenheit = ($temperaturaCelsius * 9 / 5) +32;
-echo "A temperatura em Fahrenheit é de: " $temperaturaFahrenheit;
+echo "A temperatura em Fahrenheit é de:  $temperaturaFahrenheit";
 
 ?>
+</div>
 </body>
 </html>

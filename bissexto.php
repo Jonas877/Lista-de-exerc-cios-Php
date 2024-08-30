@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificação de Paridade</title>
+    <title>Verficação de Ano Bissexto</title>
 </head>
 <body>
     
 <div class="container">
 
-<h1>Verificação de Paridade</h1>
+<h1>Verificação de Ano Bissexto</h1>
 <?php
 
-$numero = 9;
+$ano = 2007;
 
-if($numero % 2 == 0) {
-    echo "O número é par";
-}else {
-    echo "O número é ímpar";
-}
+if()
+
+
 ?>
 </div>
 </body>

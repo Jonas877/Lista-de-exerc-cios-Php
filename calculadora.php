@@ -9,7 +9,7 @@
 
 <div class="container">
 
-<h1>Calculadora<h1>
+<h1>Calculadora</h1>
 <?php
 
  $numero1 = 15;
@@ -20,24 +20,24 @@
 
     if($operacao == "soma") {
     $resultado = $numero1 + $numero2;
-     echo"O resultado dessa soma é:" $resultado;
+     echo "O resultado dessa soma é: $resultado";
     }
 
     else if($operacao == "subtração") {
     $resultado = $numero1 - $numero2;
-       echo"O resultado da subtração é:" $resultado;
+       echo"O resultado da subtração é: $resultado";
     }
 
     else if($operacao == "Multiplicação") {
      $resultado = $numero1 * $numero2;
-        echo"O resultado dessa multiplicação é:" $resultado;
+        echo"O resultado dessa multiplicação é: $resultado";
     }
     else if($operacao == "Divisão") {
     $resultado = $numero1 / $numero2;
-        echo"O resultado da divisão é:" $resultado;
+        echo"O resultado da divisão é: $resultado";
     }
     
     ?>
-    
+ </div>   
 </body>
 </html>
